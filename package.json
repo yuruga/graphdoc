@@ -1,5 +1,5 @@
 {
-  "name": "@2fd/graphdoc",
+  "name": "@yuruga/graphdoc",
   "version": "2.4.1",
   "description": "Static page generator for documenting GraphQL Schema",
   "main": "bin/graphdoc",
@@ -18,9 +18,12 @@
     "doc.starwars-js": "node bin/graphdoc.js -c example.starWars-js.json -f -v",
     "test": "jest"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/yuruga"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/2fd/graphdoc.git"
+    "url": "git+https://github.com/yuruga/graphdoc.git"
   },
   "keywords": [
     "graphql",
